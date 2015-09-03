@@ -56,15 +56,15 @@ module.exports = {
             //Submit Form
             .click('button[id=search-button]')
     },
-    'Deeplink & Analytics' : function(client) {
-        client
-            //deeplink
-
-            .url('http://expedia.com/Hotels')
-            //Selected tab is hotels
-            .verify.attributeEquals('#all-in-hotel-header-link', 'class','selected-tab')
-            //Verify Analytics
-            .verify.attributeEquals('#primary-header-hotel','data-onclick',"xp.nav.trackAnalytics(this,'a','Header.Hotels')")
-            .end();
-    }
+    //'Deeplink & Analytics' : function(client) {
+    //    client
+    //        //deeplink
+    //
+    //        .url('http://expedia.com/Hotels')
+    //        //Selected tab is hotels
+    //        .verify.attributeEquals('#all-in-hotel-header-link', 'class','selected-tab')
+    //        //Verify Analytics
+    //        .verify.attributeEquals('#primary-header-hotel','data-onclick',"xp.nav.trackAnalytics(this,'a','Header.Hotels')")
+    //        .end();
+    //}
 };
