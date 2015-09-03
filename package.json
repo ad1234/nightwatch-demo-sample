@@ -18,5 +18,9 @@
     "karma": "^0.13.9",
     "nightwatch": "0.7.11",
     "requirejs": "^2.1.19"
+  },
+  "scripts": {
+    "test": "nightwatch -e chrome,firefox"
   }
+
 }
