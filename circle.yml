@@ -1,3 +1,4 @@
 test:
   override:
+     - npm install nightwatch
      - nightwatch -e chrome,firefox
