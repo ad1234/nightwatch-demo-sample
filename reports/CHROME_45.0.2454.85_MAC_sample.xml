@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="sample"
+    errors="0" failures="0" hostname="" id="" package="sample" skipped="0"
+    tests="7" time="50.14" timestamp="Thu, 03 Sep 2015 19:08:04 GMT">
+  
+    <testcase name="Demo test expedia" time="19.08" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Mobile Text " time="0.07500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Click Event " time="21.44" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify attributes" time="0.1180" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Form fill out &amp; drop down" time="0.4850" assertions="0">
+    </testcase>
+  
+    <testcase name="Xpath &amp; css example" time="0.5570" assertions="0">
+    </testcase>
+  
+    <testcase name="Deeplink &amp; Analytics" time="8.388" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

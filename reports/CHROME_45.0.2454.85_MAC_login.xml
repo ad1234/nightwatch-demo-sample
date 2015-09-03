@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="7">
+
+  <testsuite name="login"
+    errors="0" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="7" time="55.08" timestamp="Thu, 03 Sep 2015 19:07:03 GMT">
+  
+    <testcase name="Demo test expedia" time="44.03" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Mobile Text " time="0.04200" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Click Event " time="0.1650" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify attributes" time="0.1210" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Form fill out &amp; drop down" time="0.5620" assertions="0">
+    </testcase>
+  
+    <testcase name="Xpath &amp; css example" time="0.5960" assertions="0">
+    </testcase>
+  
+    <testcase name="Deeplink &amp; Analytics" time="9.560" assertions="2">  <failure message="Testing if attribute class of &lt;#all-in-hotel-header-link&gt; equals &quot;selected-tab&quot;.">Testing if attribute class of &lt;#all-in-hotel-header-link&gt; equals &quot;selected-tab&quot;.: Expected &quot;selected-tab&quot; but got: &quot;&quot;
+    at Object.&lt;anonymous&gt; (/Users/adave/node_modules/nightwatch/lib/core/assertion.js:105:19)
+    at Object.&lt;anonymous&gt; (/Users/adave/node_modules/nightwatch/lib/api/element-commands.js:354:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/adave/node_modules/nightwatch/lib/index.js:311:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (/Users/adave/node_modules/nightwatch/lib/index.js:334:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/adave/node_modules/nightwatch/lib/http/request.js:148:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)</failure>
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
