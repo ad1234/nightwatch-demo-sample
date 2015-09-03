@@ -2,9 +2,6 @@
   "name": "Nightwatch Demo",
   "version": "1.0.0",
   "description": "deps",
-  "scripts": {
-    "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js --runWithRequireJs --requireJsSetup ./requirejs-setup.js ../test/javascript/"
-  },
   "author": "AUTH",
   "license": "LIC",
   "dependencies": {},
