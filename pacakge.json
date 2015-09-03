@@ -4,6 +4,12 @@
   "description": "deps",
   "author": "AUTH",
   "license": "LIC",
+  "repository": {
+    "type": "git",
+    "gulp-rename": "^1.2.0",
+    "gulp-util": "^3.0.4",
+    "selenium-server": "2.47.1",
+    "nightwatch": "latest"},
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
