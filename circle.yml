@@ -1,5 +1,5 @@
 test:
   override:
      - npm -v
-     - sudo npm install nightwatch
+     -  npm install nightwatch
      - nightwatch -e chrome,firefox
