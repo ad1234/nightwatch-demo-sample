@@ -11,7 +11,7 @@ module.exports = {
         client
 
             //Verify Text Value
-            .assert.containsText('#primary-header-mobile', 'Mobile')
+           // .assert.containsText('#primary-header-mobile', 'Mobile')
     },
 
     'Verify Click Event ' : function(client) {
