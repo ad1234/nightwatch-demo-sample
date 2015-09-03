@@ -19,7 +19,7 @@
     "requirejs": "^2.1.19"
   },
   "scripts": {
-    "test": "nightwatch -e chrome,firefox"
+    "test": "nightwatch -e opera,firefox"
   }
 
 }
