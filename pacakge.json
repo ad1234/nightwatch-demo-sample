@@ -1,0 +1,19 @@
+{
+  "name": "Nightwatch Demo",
+  "version": "1.0.0",
+  "description": "deps",
+  "scripts": {
+    "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js --runWithRequireJs --requireJsSetup ./requirejs-setup.js ../test/javascript/"
+  },
+  "author": "AUTH",
+  "license": "LIC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "jasmine-node": "^1.14.5",
+    "jquery": "^2.1.4",
+    "karma": "^0.13.9",
+    "nightwatch": "0.7.11",
+    "requirejs": "^2.1.19"
+  }
+}
