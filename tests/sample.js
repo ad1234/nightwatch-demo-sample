@@ -11,7 +11,7 @@ module.exports = {
         client
 
             //Verify Text Value
-           // .assert.containsText('#primary-header-mobile', 'Mobile')
+            .assert.containsText('#primary-header-mobile', 'Mobile')
     },
 
     'Verify Click Event ' : function(client) {
@@ -54,7 +54,7 @@ module.exports = {
             .useCss()
 
             //Submit Form
-          //  .click('button[id=search-button]')
+           .click('button[id=search-button]')
     },
     'Deeplink & Analytics' : function(client) {
         client
@@ -62,9 +62,9 @@ module.exports = {
 
             .url('http://expedia.com/Hotels')
             //Selected tab is hotels
-           // .verify.attributeEquals('#all-in-hotel-header-link', 'class','selected-tab')
+           .verify.attributeEquals('#all-in-hotel-header-link', 'class','selected-tab')
             //Verify Analytics
-           // .verify.attributeEquals('#primary-header-hotel','data-onclick',"xp.nav.trackAnalytics(this,'a','Header.Hotels')")
+            .verify.attributeEquals('#primary-header-hotel','data-onclick',"xp.nav.trackAnalytics(this,'a','Header.Hotels')")
             .end();
     }
 };
